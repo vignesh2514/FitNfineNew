@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ench.v7ench.fitnfinenew">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Fitness_home"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MySchedule"
+            android:label="@string/title_activity_my_schedule"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Time_details"
+            android:label="@string/title_activity_time_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Task_planner"
+            android:label="@string/title_activity_task_planner"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>
